@@ -321,6 +321,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  padding-bottom: 8px;
 }
 
 .features-item-text {
@@ -676,8 +677,7 @@ img {
   pointer-events: none;
 }
 
-.backdrop.is-open,
-.mob-menu.is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -905,6 +905,12 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .mob-menu-close-button {
@@ -1204,8 +1210,8 @@ img {
     padding-bottom: 24px;
   }
 
-  .mobile-menu.is-open {
-    display: none !important;
+  .mobile-menu {
+    display: none;
   }
 }
 
