@@ -321,7 +321,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -989,6 +989,10 @@ img {
   opacity: 1;
 }
 
+.mob-menu-link.active {
+  color: #404bbf;
+}
+
 .line {
 }
 
@@ -1022,6 +1026,10 @@ img {
 .mob-menu-contacts-link:hover,
 .mob-menu-contacts-link:focus {
   color: #404bbf;
+}
+
+.mob-menu-contacts-link.active {
+  color: #4d5ae5;
 }
 
 .mob-menu-social-list {
@@ -1210,7 +1218,7 @@ img {
     padding-bottom: 24px;
   }
 
-  .mobile-menu {
+  .mob-menu {
     display: none;
   }
 }
