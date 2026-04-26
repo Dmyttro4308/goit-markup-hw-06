@@ -919,6 +919,23 @@ img {
   pointer-events: auto;
 }
 
+.mob-menu-container {
+  position: relative;
+
+  width: 100%;
+  max-width: 428px;
+  height: 100%;
+
+  margin-left: auto;
+
+  background: #fff;
+
+  padding: 24px 24px 40px 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
 .mob-menu-close-button {
   position: absolute;
   border-radius: 100%;
