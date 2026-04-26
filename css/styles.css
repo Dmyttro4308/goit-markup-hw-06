@@ -294,7 +294,7 @@ img {
 .features-list {
   display: flex;
   /* gap: 24px; */
-  gap: 72px;
+  gap: 72px 0;
   flex-wrap: wrap;
 }
 
