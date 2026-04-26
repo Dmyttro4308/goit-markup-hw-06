@@ -907,7 +907,6 @@ img {
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
   opacity: 0;
   visibility: hidden;
@@ -1013,6 +1012,7 @@ img {
   letter-spacing: 0.02em;
   color: #4d5ae5;
   padding-bottom: 48px;
+  margin-top: auto;
 }
 
 .mob-menu-contacts-list {
@@ -1186,7 +1186,7 @@ img {
     align-items: baseline;
     text-align: left;
     gap: 72px 24px;
-    padding-left: 108px;
+    justify-content: center;
   }
 
   .footer-logo {
@@ -1208,6 +1208,8 @@ img {
   .footer-subscribe {
     padding-left: 0;
     margin-left: 0;
+    flex-basis: 100%;
+    max-width: 453px;
   }
 
   .footer-subscribe-text {
