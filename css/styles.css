@@ -512,13 +512,16 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 72px;
 }
 
 .footer-logo-text {
   /* margin-right: 120px; */
-  padding-bottom: 72px;
+  /* padding-bottom: 72px; */
 }
 
 .footer-logo {
@@ -541,12 +544,14 @@ img {
   color: #f4f4fd;
   margin-top: 16px;
   max-width: 264px;
+  text-align: left;
 }
 
 .footer-media {
-  padding-bottom: 72px;
-  padding-left: 56px;
-  padding-right: 56px;
+  /* padding-bottom: 72px; */
+  /* padding-left: 56px;
+  padding-right: 56px; */
+  padding: 0;
 }
 
 .footer-text-media {
@@ -560,7 +565,7 @@ img {
 
 .footer-social-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 16px;
   margin-top: 16px;
 }
@@ -591,7 +596,7 @@ img {
 
 .footer-subscribe {
   align-items: center;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 .footer-subscribe-form {
 }
@@ -606,9 +611,10 @@ img {
 }
 .footer-form {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   /* gap: 24px; */
   gap: 16px;
-  flex-wrap: wrap;
 }
 .footer-form-input {
   border: 1px solid #fff;
@@ -1092,7 +1098,6 @@ img {
   .header-contacts {
     margin-left: auto;
     display: grid;
-    flex-direction: column;
     gap: 4px;
     text-align: right;
   }
@@ -1174,13 +1179,20 @@ img {
     width: calc((100% - 24px) / 2);
   }
 
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    text-align: left;
+    gap: 72px 24px;
+  }
+
   .footer-logo {
     text-align: start;
   }
 
   .footer-logo-text {
     padding-left: 108px;
-    margin-right: 24px;
   }
 
   .footer-media {
@@ -1200,9 +1212,14 @@ img {
     text-align: start;
   }
 
+  .footer-social-list {
+    justify-content: flex-start;
+  }
+
   .footer-form {
     gap: 24px;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    display: flex;
   }
 
   .footer-form-input {
@@ -1348,7 +1365,7 @@ img {
 
   .footer-container {
     flex-wrap: nowrap;
-    height: 112px;
+    gap: 0;
   }
 
   .footer-logo-text {
